@@ -1,0 +1,48 @@
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#contatos img {
+
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    filter: brightness(0.8);
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8d7d7;
+    height: 5rem;
+    width: 40rem;
+}
+
+.whats {
+    display: flex;
+   margin-right: 2rem;
+  gap: .5rem;
+}
+
+.email {
+    display: flex;
+    gap: .5rem;
+}
+
+.contatos p {
+    margin-top: .5rem;
+}
+
+
+footer a {
+    color: rgb(23, 28, 29);
+}
+
+footer a:hover{
+    color: rgb(3, 110, 211);
+}

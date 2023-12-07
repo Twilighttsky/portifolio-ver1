@@ -1,0 +1,130 @@
+@import url('footer.css');
+@import url('header.css');
+@import url('container.css');
+@import url('main.css');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hedvig+Letters+Sans&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --caixa-azul:rgba(92, 196, 245, 0.233);
+    --caixa-verde:rgba(142, 230, 176, 0.233);
+    --span-azul:rgb(82, 178, 223);
+    --span-verde: rgba(134, 212, 164, 0.938);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #eeecec;
+    background-size: cover;
+    color: rgb(23, 28, 29);
+    font-family: 'Hedvig Letters Sans';
+}
+
+@media (max-width: 418px) {
+
+.titulo {
+    position: absolute;
+    left: 2%;
+}
+
+nav {
+    margin-right: .8rem;
+    word-spacing: .9rem;
+}
+
+a {
+    font-size: .9rem;
+}
+
+
+.decoracao img {
+    display: flex;
+    width: 9rem;
+    margin-left: .2rem;
+}
+
+.introducao {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    width: 15rem;
+    padding-top: 1rem;
+}
+
+.container {
+    height: 30rem;
+    background-position: bottom;
+}
+
+.sobre-mim {
+    width: 20rem;
+    margin-left: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.icones {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50rem;
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
+#habilidades {
+    width: 100%;
+    height: 51rem;
+    padding: 0;
+    margin-top: 6rem;
+}
+
+.texto {
+    height: fit-content;
+    margin-right: 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    margin-block-start: 3rem;
+    float: right;
+
+}
+
+.texto p {
+    height: 16rem;
+    width: 12rem;
+}
+
+.project-box {
+    width: 23rem;
+    margin-left: 1rem;
+}
+
+.img-projetos img {
+    width: 18rem;
+}
+
+#contatos img {
+    display: flex;
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: brightness(0.8);
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos p {
+   position: relative;
+   bottom: .5rem;
+}
+
+}

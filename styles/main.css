@@ -1,0 +1,84 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+#habilidades {
+    width: 70rem;
+    background-color: var(--caixa-azul);
+    border-radius: 4px;
+    padding: 2rem;
+    margin-top: 9rem;
+}
+.icones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.icones img{
+    width: 7rem;
+}
+
+.texto {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-block-start: 1rem;
+}
+
+.texto p {
+    width: 22rem;
+    margin-inline-start: 1.5rem;
+}
+
+#projetos {
+    background:url('/imgs/fundoprojetos.jpg') center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.project-box {
+    margin: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-family: 'poppins';
+    color:var(--span-verde);
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 4px;
+    width: 15rem;
+    text-align: center;
+}
+
+.img-projetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    column-gap: 6rem;
+    row-gap: 5rem;
+    margin-bottom: 4rem;
+    
+}
+
+.img-projetos img {
+    width: 25rem;
+    filter: brightness(.6);
+}
+
+.img-projetos img:hover {
+    filter: brightness(.85);
+    transition: .2s;
+    transform: rotate3d(0.3, 0.3, 1, -2deg );
+    
+}

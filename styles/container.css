@@ -1,0 +1,43 @@
+.container {
+    background: url('/imgs/totorobranco.jpg') bottom no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+   height: 34.6rem;
+}
+
+.decoracao img {
+    display: flex;
+    width: 15rem;
+    margin-left: 1.8rem;
+    rotate: -14deg;
+}
+ .introducao {
+    text-wrap: wrap;
+    background-color:rgba(142, 230, 176, 0.363);
+    width: 23rem;
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-inline-start: 2.5rem;
+    font-size: 2.2rem;
+    font-family: 'Poppins';
+    height: 8rem;
+    border-radius: 4px;
+}
+
+span {
+    color: var(--span-azul);
+}
+
+.decoracao {
+    display: flex;
+}
+
+.sobre-mim {
+    width: 40rem;
+    margin-top: .5rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    background-color: var(--caixa-verde);
+    padding: 1rem;
+}
+
