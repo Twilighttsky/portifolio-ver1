@@ -36,7 +36,8 @@ main {
 }
 
 #projetos {
-    background:url('/imgs/fundoprojetos.jpg') center no-repeat fixed;
+    background:no-repeat fixed url('../imgs/fundoprojetos.jpg');
+    background-position: center;
     background-size: cover;
     width: 100%;
     margin-top: 9rem;
