@@ -7,7 +7,7 @@ main {
 }
 
 #habilidades {
-    width: 70rem;
+    margin-bottom: 9rem;
     background-color: var(--caixa-azul);
     border-radius: 4px;
     padding: 2rem;
@@ -54,8 +54,8 @@ main {
     font-size: 3rem;
     margin-top: 2rem;
     font-family: 'poppins';
-    color:var(--span-verde);
-    background-color: rgba(0, 0, 0, 0.308);
+    color: #f8f8f8;
+    background-color: rgb(94, 178, 218);
     border-radius: 4px;
     width: 15rem;
     text-align: center;
@@ -65,7 +65,7 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 8rem;
     column-gap: 6rem;
     row-gap: 5rem;
     margin-bottom: 4rem;
@@ -73,7 +73,7 @@ main {
 }
 
 .img-projetos img {
-    width: 25rem;
+    width: 18rem;
     filter: brightness(.6);
 }
 
@@ -81,5 +81,9 @@ main {
     filter: brightness(.85);
     transition: .2s;
     transform: rotate3d(0.3, 0.3, 1, -2deg );
-    
+
+}
+
+.project-box p {
+    color: #f8f8f8;
 }
